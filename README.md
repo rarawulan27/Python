@@ -1,4 +1,4 @@
-# A/B Testing & Cohort Analysis in Python
+# A/B Testing in Python
 
 This project analyzes a marketing dataset using statistical A/B testing and cohort-based user retention analysis.
 
