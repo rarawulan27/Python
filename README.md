@@ -1,16 +1,17 @@
-## Hi there 👋
+# A/B Testing & Cohort Analysis in Python
 
-<!--
-**rarawulan27/rarawulan27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This project analyzes a marketing dataset using statistical A/B testing and cohort-based user retention analysis.
 
-Here are some ideas to get you started:
+## 🔬 Analysis Summary
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **A/B Testing** (ANOVA + Tukey HSD) was used to determine the most effective promotion strategy.
+- **Cohort Analysis** was simulated using `LocationID` and weekly transaction data to estimate retention.
+
+## 📊 Tools & Libraries
+- Python (pandas, seaborn, scipy, statsmodels)
+- Google Colab
+- Matplotlib
+
+## 📁 Files
+- `cohort_analysis.ipynb`: Main notebook
+- `WA_Marketing-Campaign.csv`: Dataset used (from Kaggle)
